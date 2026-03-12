@@ -53,20 +53,6 @@ nav a:hover {
     font-size: 20px;
     margin-bottom: 30px;
 }
-
-.cta-btn {
-    background: #00eaff;
-    padding: 12px 30px;
-    border-radius: 6px;
-    color: #000;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.cta-btn:hover {
-    background: #00bcd4;
-}
-
 .Why {
     padding: 80px 40px;
     text-align: center;
