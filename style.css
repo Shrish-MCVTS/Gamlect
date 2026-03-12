@@ -1,6 +1,14 @@
+@font-face {
+    font-family:boldSRT;
+    src: url("SRT_Bold.ttf");
+  }
+@font-face {
+    font-family:lightSRT;
+    src: url("SRT_Light.ttf");
+  }
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: bol, boldSRT;
     background-color: #0d0d0d;
     color: #ffffff;
 }
@@ -25,11 +33,14 @@ header {
     font-weight: bold;
     color: #00eaff;
 }
-
 nav a {
     margin-left: 20px;
     font-size: 16px;
     transition: 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 nav a:hover {
@@ -53,10 +64,25 @@ nav a:hover {
     font-size: 20px;
     margin-bottom: 30px;
 }
-.Why {
+.features {
     padding: 80px 40px;
     text-align: center;
     background: url('https://www.reefcheck.org/wp-content/uploads/2020/10/tropical_banner.jpg') center/cover no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.purposes {
+    padding: 80px 40px;
+    text-align: center;
+    background: url('https://images.unsplash.com/photo-1572594417697-0764e4e7ee1e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.6);
+}
+.Members {
+    padding: 80px 40px;
+    text-align: center;
+    background: url('https://images.unsplash.com/photo-1651871756929-09d7bde4e97d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
     background-blend-mode: overlay;
     background-color: rgba(0,0,0,0.6);
 }
@@ -75,6 +101,10 @@ nav a:hover {
     width: 280px;
     border-radius: 10px;
     transition: 0.3s;
+      background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .card:hover {
@@ -87,4 +117,8 @@ footer {
     padding: 20px;
     background: #0b0b0b;
     margin-top: 40px;
+    background: url('https://www.reefcheck.org/wp-content/uploads/2020/10/tropical_banner.jpg') center/cover no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.6);
 }
+
