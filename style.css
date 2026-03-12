@@ -39,7 +39,7 @@ nav a:hover {
 .main {
     text-align: center;
     padding: 120px 20px;
-    background: url('https://images.unsplash.com/photo-1605902711622-cfb43c44367f') center/cover no-repeat;
+    background: url('https://static.scientificamerican.com/sciam/cache/file/A8C52FD5-226A-48F0-9959C8A1E80DAE93_source.jpg?crop=16%3A9%2Csmart&w=1920') center/cover no-repeat;
     background-blend-mode: overlay;
     background-color: rgba(0,0,0,0.6);
 }
@@ -47,7 +47,7 @@ nav a:hover {
 .main h1 {
     font-size: 60px;
     margin-bottom: 10px;
-}
+} 
 
 .main p {
     font-size: 20px;
@@ -56,6 +56,9 @@ nav a:hover {
 .Why {
     padding: 80px 40px;
     text-align: center;
+    background: url('https://www.reefcheck.org/wp-content/uploads/2020/10/tropical_banner.jpg') center/cover no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.6);
 }
 
 .grid {
